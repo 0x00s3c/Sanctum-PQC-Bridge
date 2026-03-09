@@ -30,3 +30,17 @@ Python 3.12+
 liboqs-python (Open Quantum Safe library)
 
 pennylane (Quantum ML framework)
+
+```
+Installation
+git clone https://github.com/0x00s3c/Sanctum-PQC-Bridge.git
+cd Sanctum-PQC-Bridge
+pip install -r requirements.txt
+
+```
+Usage
+```
+Run the bridge to simulate a secure quantum optimization call:
+python main_bridge.py --agent "Alpha_Vault" --task "optimize_supply_chain"
+
+
